@@ -111,7 +111,7 @@ if __name__ == "__main__":
         lst = ['id', 'title', 'skills']
         writer = csv.writer(file)
         writer.writerow(lst)
-        print('Add string header')
+        print('Add string for header')
         file.close()
 
     links = list_links_add_dict(extract_titles(), ParserConfig.first_url)
